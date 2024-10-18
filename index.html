@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/src/css/styles.css" />
+  <link rel="icon" href="assets/images/Icon.jpg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <title>PPKK INDONESIA</title>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="container">
+      <div class="nav__logo">PPKK INDONESIA</div>
+      <ul class="nav__links">
+        <a href="#beranda">
+          <li class="link">Beranda</li>
+        </a>
+        <a href="#tentang">
+          <li class="link">Tentang Kami</li>
+        </a>
+        <a href="#program">
+          <li class="link">Program</li>
+        </a>
+        <a href="#misi">
+          <li class="link">Misi</li>
+        </a>
+        <a href="#kontak">
+          <li class="link">Kontak</li>
+        </a>
+      </ul>
+      <div class="nav__auth">
+        <a href="login.html" class="btn login-btn">Masuk</a>
+        <a href="register.html" class="btn register-btn">Daftar</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="beranda">
+    <div class="section__container">
+      <div class="hero-content">
+        <h1>Langkah Tepat Untuk Karir Hebat</h1>
+        <p>Bangun Karirmu Sebagai Talenta Professional</p>
+        <a href="form.php" class="hero-btn">Mulai Sekarang</a>
+      </div>
+      <div class="hero-image">
+        <img src="assets/images/Logo.png" alt="Logo" />
+      </div>
+    </div>
+
+    <!-- SVG Wave -->
+    <div class="wave-container">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(0,31,63,0.7)" />
+          <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0,31,63,0.5)" />
+          <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(0,31,63,0.3)" />
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="#001F3F" />
+        </g>
+      </svg>
+    </div>
+  </header>
+
+  <!-- About Us Section -->
+  <section class="banner__container" id="tentang">
+    <div class="section__container">
+      <div class="banner__content">
+        <h2>Tentang Kami</h2>
+        <p>
+          Pusat Pengembangan Karir dan Kompetensi (PPKK) Indonesia adalah
+          program pelatihan pengembangan kompetensi yang telah ditunjukan
+          untuk meningkatkan keterampilan dan daya saing, produktivitas,
+          profesionalisme SDM bidang teknologi informasi dan komunikasi bagi
+          angkatan kerja muda Indonesia, masyarakat umum, dan aparatur sipil
+          negara di bidang Komunikasi dan Informatika sehingga dapat
+          meningkatkan produktivitas dan daya saing di era Industri 4.0
+        </p>
+      </div>
+    </div>
+  </section>
+
+<!--Our Program Section  -->
+<section class="program__container" id="program">
+  <div class="section__container">
+    <h2 class="section__title">Program Kami</h2>
+    <p class="section__subtitle">
+      Bekerja sama dengan partner perusahaan besar, kami menyelenggarakan
+      beberapa program untuk mendukung karir peserta
+    </p>
+    <div class="program__grid">
+      <div class="program__card" data-card="1">
+        <img src="assets/images/PTI.jpg" alt="program" />
+        <div class="program__name">
+          <i class="ri-briefcase-4-fill"></i>
+          <span>Pelatihan Pengembangan Teknologi Informasi</span>
+        </div>
+        <div class="program__info">
+          <p><strong>Durasi:</strong> 3 Bulan</p>
+          <p><strong>Benefit:</strong> Sertifikat dan Jaringan Industri</p>
+          <p><strong>Keahlian:</strong> Pengembangan Software, Analisis Data</p>
+          <p><strong>Biaya:</strong> Rp 250.000</p>
+        </div>
+      </div>
+
+      <div class="program__card" data-card="2">
+        <img src="assets/images/MK.jpg" alt="program" />
+        <div class="program__name">
+          <i class="ri-briefcase-4-fill"></i>
+          <span>Pelatihan Soft Skills dan Manajemen Kerja</span>
+        </div>
+        <div class="program__info">
+          <p><strong>Durasi:</strong> 1 Bulan</p>
+          <p><strong>Benefit:</strong> Sertifikat dan Pelatihan Profesional</p>
+          <p><strong>Keahlian:</strong> Kepemimpinan, Komunikasi, Manajemen Tim</p>
+          <p><strong>Biaya:</strong> Rp 150.000</p>
+        </div>
+      </div>
+
+      <div class="program__card" data-card="3">
+        <img src="assets/images/KW.jpeg" alt="program" />
+        <div class="program__name">
+          <i class="ri-briefcase-4-fill"></i>
+          <span>Pelatihan Kewirausahaan dan Bisnis</span>
+        </div>
+        <div class="program__info">
+          <p><strong>Durasi:</strong> 4 Bulan</p>
+          <p><strong>Benefit:</strong> Akses ke Mentor Bisnis</p>
+          <p><strong>Keahlian:</strong> Perencanaan Bisnis, Marketing</p>
+          <p><strong>Biaya:</strong> Rp 450.000</p>
+        </div>
+      </div>
+
+      <div class="program__card" data-card="4">
+        <img src="assets/images/TK.jpg" alt="program" />
+        <div class="program__name">
+          <i class="ri-briefcase-4-fill"></i>
+          <span>Pelatihan Teknik dan Produksi</span>
+        </div>
+        <div class="program__info">
+          <p><strong>Durasi:</strong> 6 Bulan</p>
+          <p><strong>Benefit:</strong> Sertifikat, Kunjungan Pabrik</p>
+          <p><strong>Keahlian:</strong> Teknik Mesin, Manufaktur</p>
+          <p><strong>Biaya:</strong> Rp 650.000</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- News Section -->
+<section class="news__container">
+  <div class="news__container">
+    <div class="news__header">
+      <h2 class="news__title">Berita Terbaru</h2>
+      
+      <!-- Filter Dropdown -->
+      <div class="filter__dropdown__container">
+        <label for="news-filter">Filter: </label>
+        <select id="news-filter" class="filter__dropdown">
+          <option value="all">Semua</option>
+          <option value="latest">Terbaru</option>
+          <option value="pelatihan">Pelatihan</option>
+          <option value="seminar">Seminar</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="news__grid" id="news-list"></div>
+  </div>
+</section>
+
+<!-- Mission Section -->
+<section class="mission__container" id="misi">
+  <div class="section__container">
+    <h2 class="section__title">Misi Kami</h2>
+    <p class="section__subtitle">
+      Dengan Tekad Kuat Kami ingin membangun SDM yang unggul dan berdaya saing
+    </p>
+
+    <div class="mission__grid">
+      <figure class="mission__card" data-card="1">
+        <img src="assets/images/Produktif.jpg" alt="Pelatihan Pengembangan Teknologi Informasi" />
+        <figcaption>
+          <div class="mission__info">
+            <h3>PRODUKTIF</h3>
+          </div>
+        </figcaption>
+        <div class="mission__info">
+          <p>Meningkatkan efisiensi dan hasil kerja melalui pelatihan yang fokus pada peningkatan kinerja.</p>
+        </div>
+      </figure>
+
+      <figure class="mission__card" data-card="1">
+        <img src="assets/images/Adaptif.jpg" alt="Pelatihan Pengembangan Teknologi Informasi" />
+        <figcaption>
+          <div class="mission__info">
+            <h3>ADAPTIF</h3>
+          </div>
+        </figcaption>
+        <div class="mission__info">
+          <p> Membekali para talenta agar cepat beradaptasi dengan perubahan industri.</p>
+        </div>
+      </figure>
+
+      <figure class="mission__card" data-card="1">
+        <img src="assets/images/Kreatif.jpg" alt="Pelatihan Pengembangan Teknologi Informasi" />
+        <figcaption>
+          <div class="mission__info">
+            <h3>INOVATIF</h3>
+          </div>
+        </figcaption>
+        <div class="mission__info">
+          <p>Mendorong ide-ide baru dengan pelatihan berbasis teknologi dan penelitian.</p>
+        </div>
+      </figure>
+
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section class="display__container">
+  <div class="section__container">
+      <h2 class="section__title">Kenal Lebih Dekat Tentang Kami</h2>
+      <p class="section__subtitle">
+          Kami membuat pengalaman terbaik dengan para peserta talenta professional
+      </p>
+      <div class="display__grid">
+          <div class="display__card grid-1">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Bm1NtTAtBAA" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+          </div>
+          <div class="display__card">
+              <div class="slideshow-container">
+                  <img class="slide fade" src="assets/images/1.jpeg" alt="grid 1-1" />
+                  <img class="slide fade" src="assets/images/2.jpg" alt="grid 1-2" />
+                  <img class="slide fade" src="assets/images/3.jpeg" alt="grid 1-3" />
+              </div>
+          </div>
+          <div class="display__card">
+              <div class="slideshow-container">
+                  <img class="slide fade" src="assets/images/4.jpg" alt="grid 2-1" />
+                  <img class="slide fade" src="assets/images/5.jpg" alt="grid 2-2" />
+                  <img class="slide fade" src="assets/images/6.jpg" alt="grid 2-3" />
+              </div>
+          </div>
+          <div class="display__card">
+              <div class="slideshow-container">
+                  <img class="slide fade" src="assets/images/7.jpg" alt="grid 3-1" />
+                  <img class="slide fade" src="assets/images/8.jpg" alt="grid 3-2" />
+                  <img class="slide fade" src="assets/images/9.jpg" alt="grid 3-3" />
+              </div>
+          </div>
+          <div class="display__card">
+              <div class="slideshow-container">
+                  <img class="slide fade" src="assets/images/10.jpg" alt="grid 4-1" />
+                  <img class="slide fade" src="assets/images/11.jpeg" alt="grid 4-2" />
+                  <img class="slide fade" src="assets/images/1.jpeg" alt="grid 4-3" />
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer id="kontak">
+    <div class="section__container">
+      <h4>PPKK INDONESIA</h4>
+      <div class="social__icons">
+        <a href="https://www.facebook.com/share/rs7gyzG9msaXZKRZ/" target="_blank"><i class="ri-facebook-fill"></i></a>
+        <a href="https://x.com/PPKKIndonesia?t=hK6QS_Wzwwfhze0CWMaCQA&s=09" target="_blank"><i class="ri-twitter-fill"></i></a>
+        <a href="https://www.instagram.com/ppkk_indonesia/profilecard/?igsh=MWU0eHRvaGxyYnBiZA==" target="_blank"><i class="ri-instagram-line"></i></a>
+      </div>
+      <p>Langkah Tepat Untuk Karir Hebat.</p>
+      <span><i class="ri-whatsapp-fill"></i> WhatsApp : +62 891-2345-6789 </span>
+      <span><i class="ri-message-2-fill"></i> Email   : ppkkindonesia@gmail.com</span>
+    </div>
+  </footer>
+  
+</body>
+<script src="assets/src/js/slide.js"></script>
+<script src="assets/src/js/news.js"></script>
+<script src="assets/src/js/card.js"></script>
+
+</html>
